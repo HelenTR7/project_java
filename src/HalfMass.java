@@ -6,8 +6,8 @@ public class HalfMass {
 
     public static void main (String args[]) throws Exception {
         //int mass[] = {2,3,14,9,4,5,2,15};
-        //int mass[] = {3,4,3,3,2};
-        int mass[] = {1,2,3,4,5,6};
+        int mass[] = {3,4,3,3,2};
+        //int mass[] = {1,2,3,4,5,6};
         //int mass[] = {6,5,4,3,2,1};
         //int mass[] = {3,7,4,8,15,14,17,3,9,11,13,19,16};
         //int mass[] = {8,7,3,3,3};
@@ -23,15 +23,15 @@ public class HalfMass {
 
         int k = 0;
         int minsumm = 0;
-        for(l = 0; l < arraymass.size() - 1; l++) {//remove duble
-            for(k = l+1; k < arraymass.size(); k++) {
-                if(arraymass.get(l) == arraymass.get(k)){
-                    minsumm += arraymass.get(l)*2;
-                    arraymass.remove(l);
-                    arraymass.remove(k);
-                }
-            }
-        }
+        //for(l = 0; l < arraymass.size() - 1; l++) {//remove duble
+        //    for(k = l+1; k < arraymass.size(); k++) {
+        //        if(arraymass.get(l) == arraymass.get(k)){
+        //            minsumm += arraymass.get(l)*2;
+        //            arraymass.remove(l);
+        //            arraymass.remove(k);
+        //        }
+        //    }
+        //}
 
         int summ = 0;
         //sum up
